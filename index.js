@@ -15,13 +15,13 @@ class Circle {
     return Math.PI * this.radius * this.radius;
   }
   
-//   set diameter(){
-
-//   }
+  set diameter(diameter) {
+    this.diameter = diameter
+  }
   set circumference(circumference){
     this.circumference = circumference;
   }
-//   set area(){
-
-//   }
+  set area(area){
+    this.area = area;
+  }
 }
